@@ -1,0 +1,46 @@
+
+<?php
+// Connexion à la base de données et autres opérations nécessaires
+
+if (isset($_POST['idp'])) {
+    
+   
+$productId = $_POST['idp'];
+
+    
+
+   
+
+
+// Effectuer une requête pour récupérer les détails du produit en fonction de l'ID
+    $query = ('SELECT prixunitaire, descr, quantite FROM stocks WHERE idp =' . $_GET['idp']);
+    
+   
+$stmt = $db->prepare($query);   
+$stmt->bindParam(':idp', $productId);
+$stmt->execute();
+ 
+if ($stmt->rowCount() > 0) {
+        
+       
+$row = $stmt->fetch(PDO::FETCH_ASSOC);
+
+// Récupérer les valeurs des colonnes prix et description
+        $prixProduit = $row['prix'];
+$descriptionProduit = $row['description'];
+$quantite = $row['quantite'];
+// Construire un tableau avec les détails du produit     
+$productDetails = array(  
+'prix' => $prixProduit,   
+'description' => $descriptionProduit,
+'quantite' => $quantite);
+ 
+// Renvoyer les détails du produit au format JSON
+
+echo json_encode($productDetails);
+    } else {  
+// Aucun produit trouvé pour cet ID
+        echo json_encode(array('error' => 'Produit non trouvé.'));
+    }
+}
+?>
