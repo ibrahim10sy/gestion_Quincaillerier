@@ -2,7 +2,7 @@
 <php lang="en">
 <head>
 <meta charset="utf-8">
-<title>Preschool - Bootstrap Admin Template</title>
+<title>G-QUINCAILLERIE </title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
 
 <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
@@ -24,7 +24,7 @@
 <div class="main-wrapper error-wrapper">
 <div class="account-page">
 <div class="error-box">
-<form action="index.php">
+<form action="accueil.php">
 <div class="lock-user">
 <img class="rounded-circle" src="assets/img/user.jpg" alt="">
 <h6>John Doe</h6>

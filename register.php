@@ -16,7 +16,7 @@
 			
 		}else{
 		 echo "<script> alert('inscription réeussi'  ) </script>";
-		 echo "<script>window.open('login.php','_self')</script>";
+		 echo "<script>window.open('accueil.php','_self')</script>";
 
 		}
 	
@@ -60,7 +60,7 @@
 <div class="account-box">
 <div class="account-wrapper">
 <div class="account-logo">
-<a href="index.php"><img src="assets/img/logo.png" alt="School-admin"></a>
+<a href="accueil.php"><img src="assets/img/logo.png" alt="School-admin"></a>
 </div>
 <form action="register.php" method="POST">
 <div class="form-group">
@@ -83,7 +83,7 @@
 <button class="btn btn-primary btn-block account-btn" type="submit" name="submit" >S'enregister</button>
 </div>
 <div class="text-center">
-<a href="login.php">Avez vous déjà un compte ? Se connecter </a>
+<a href="accueil.php">Avez vous déjà un compte ? Se connecter </a>
 </div>
 </form>
 </div>

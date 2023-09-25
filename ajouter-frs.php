@@ -74,7 +74,7 @@ if(isset($_POST['modifier'])) {
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Preschool </title>
+<title>G-STOCK </title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
 
 <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
@@ -120,7 +120,7 @@ if(isset($_POST['modifier'])) {
 </div>
 </li>
 <li>
-<a href="index.php" class="mobile-logo d-md-block d-lg-none d-block"><img src="assets/img/logo1.png" alt="" width="30" height="30"></a>
+<a href="accueil.php" class="mobile-logo d-md-block d-lg-none d-block"><img src="assets/img/logo1.png" alt="" width="30" height="30"></a>
 </li>
 </ul>
 
@@ -212,7 +212,7 @@ if(isset($_POST['modifier'])) {
 <a class="dropdown-item" href="profile.php">My Profile</a>
 <a class="dropdown-item" href="edit-profile.php">Edit Profile</a>
 <a class="dropdown-item" href="settings.php">Settings</a>
-<a class="dropdown-item" href="login.php">Logout</a>
+<a class="dropdown-item" href="logout.php">Logout</a>
 </div>
 </li>
 </ul>
@@ -222,7 +222,7 @@ if(isset($_POST['modifier'])) {
 <a class="dropdown-item" href="profile.php">My Profile</a>
 <a class="dropdown-item" href="edit-profile.php">Edit Profile</a>
 <a class="dropdown-item" href="settings.php">Settings</a>
-<a class="dropdown-item" href="login.php">Logout</a>
+<a class="dropdown-item" href="logout.php">Logout</a>
 </div>
 </div>
 </div>
@@ -233,15 +233,15 @@ if(isset($_POST['modifier'])) {
 <div class="sidebar-inner slimscroll">
 <div id="sidebar-menu" class="sidebar-menu">
 <div class="header-left">
-<a href="index.php" class="logo">
+<a href="accueil.php" class="logo">
 <img src="assets/img/logo1.png" width="40" height="40" alt="">
-<span class="text-uppercase">Preschool</span>
+<span class="text-uppercase">G-STOCK</span>
 </a>
 </div>
 <ul class="sidebar-ul">
 <li class="menu-title">Menu</li>
 <li>
-<a href="index.php"><img src="assets/img/sidebar/icon-1.png" alt="icon"><span>Dashboard</span></a>
+<a href="accueil.php"><img src="assets/img/sidebar/icon-1.png" alt="icon"><span>Dashboard</span></a>
 </li>
 <li class="submenu">
 <a href="#"><img src="assets/img/sidebar/icon-2.png" alt="icon"> <span> Client</span> <span class="menu-arrow"></span></a>
@@ -271,7 +271,7 @@ if(isset($_POST['modifier'])) {
 <li class="submenu">
 <a href="#"><img src="assets/img/sidebar/icon-2.png" alt="icon"> <span> Commandes</span> <span class="menu-arrow"></span></a>
 <ul class="list-unstyled" style="display: none;">
-<li><a href="commande-form.php"><span>Passer Commandes</span></a></li>
+<li><a href="index1.php"><span>Passer Commandes</span></a></li>
 <li><a href="liste-commande.php"><span>Liste Commandes</span></a></li>
 </ul>
 </li>
@@ -293,7 +293,7 @@ if(isset($_POST['modifier'])) {
 </div>
 <div class="col-lg-6 col-md-6 col-sm-6 col-12">
 <ul class="breadcrumb float-right p-0 mb-0">
-<li class="breadcrumb-item"><a href="index.php"><i class="fas fa-home"></i> Dashboard</a></li>
+<li class="breadcrumb-item"><a href="accueil.php"><i class="fas fa-home"></i> Dashboard</a></li>
 <li class="breadcrumb-item"><a href="liste-frs.php">Fournisseurs</a></li>
 <li class="breadcrumb-item"><span> Tous les Fournisseurs</span></li>
 </ul>

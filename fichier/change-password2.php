@@ -2,7 +2,7 @@
 <php lang="en">
 <head>
 <meta charset="utf-8">
-<title>Preschool - Bootstrap Admin Template</title>
+<title>G-QUINCAILLERIE </title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
 
 <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
@@ -28,9 +28,9 @@
 <div class="account-box">
 <div class="account-wrapper">
 <div class="account-logo">
-<a href="index.php"><img src="assets/img/logo.png" alt="School"></a>
+<a href="accueil.php"><img src="assets/img/logo.png" alt="School"></a>
 </div>
-<form action="index.php">
+<form action="accueil.php">
 <div class="form-group">
 <label>Current Password</label>
 <input type="password" class="form-control">

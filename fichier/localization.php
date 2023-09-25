@@ -2,7 +2,7 @@
 <php lang="en">
 <head>
 <meta charset="utf-8">
-<title>Preschool - Bootstrap Admin Template</title>
+<title>G-QUINCAILLERIE </title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
 
 <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
@@ -46,7 +46,7 @@
 </div>
 </li>
 <li>
-<a href="index.php" class="mobile-logo d-md-block d-lg-none d-block"><img src="assets/img/logo1.png" alt="" width="30" height="30"></a>
+<a href="accueil.php" class="mobile-logo d-md-block d-lg-none d-block"><img src="assets/img/logo1.png" alt="" width="30" height="30"></a>
 </li>
 </ul>
 
@@ -159,14 +159,14 @@
 <div class="sidebar-inner slimscroll">
 <div id="sidebar-menu" class="sidebar-menu">
 <div class="header-left">
-<a href="index.php" class="logo">
+<a href="accueil.php" class="logo">
 <img src="assets/img/logo1.png" width="40" height="40" alt="">
-<span class="text-uppercase">Preschool</span>
+<span class="text-uppercase">G-QUINCAILLERIE</span>
 </a>
 </div>
 <ul class="sidebar-ul">
 <li>
-<a href="index.php" class="border-top-0"><i class="fas fa-home back-icon"></i> Back to Home</a>
+<a href="accueil.php" class="border-top-0"><i class="fas fa-home back-icon"></i> Back to Home</a>
 </li>
 <li class="menu-title">Settings</li>
 <li>
@@ -214,7 +214,7 @@
 </div>
 <div class="col-lg-6 col-md-6 col-sm-6 col-12">
 <ul class="breadcrumb float-right p-0 mb-0">
-<li class="breadcrumb-item"><a href="index.php"><i class="fas fa-home"></i> Home</a></li>
+<li class="breadcrumb-item"><a href="accueil.php"><i class="fas fa-home"></i> Home</a></li>
 <li class="breadcrumb-item"><a href="#">Settings</a></li>
 <li class="breadcrumb-item"><span> Localization</span></li>
 </ul>

@@ -16,7 +16,7 @@ if (isset($_GET['ids'])) {
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Preschool - Bootstrap Admin Template</title>
+<title>G-STOCK </title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
 
 <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
@@ -62,7 +62,7 @@ if (isset($_GET['ids'])) {
 </div>
 </li>
 <li>
-<a href="index.php" class="mobile-logo d-md-block d-lg-none d-block"><img src="assets/img/logo1.png" alt="" width="30" height="30"></a>
+<a href="accueil.php" class="mobile-logo d-md-block d-lg-none d-block"><img src="assets/img/logo1.png" alt="" width="30" height="30"></a>
 </li>
 </ul>
 
@@ -175,15 +175,15 @@ if (isset($_GET['ids'])) {
 <div class="sidebar-inner slimscroll">
 <div id="sidebar-menu" class="sidebar-menu">
 <div class="header-left">
-<a href="index.php" class="logo">
+<a href="accueil.php" class="logo">
 <img src="assets/img/logo1.png" width="40" height="40" alt="">
-<span class="text-uppercase">Liste Fournisseurs</span>
+<span class="text-uppercase">G-STOCK</span>
 </a>
 </div>
 <ul class="sidebar-ul">
 <li class="menu-title">Menu</li>
 <li>
-<a href="index.php"><img src="assets/img/sidebar/icon-1.png" alt="icon"><span>Dashboard</span></a>
+<a href="accueil.php"><img src="assets/img/sidebar/icon-1.png" alt="icon"><span>Dashboard</span></a>
 </li>
 <li class="submenu">
 <a href="#"><img src="assets/img/sidebar/icon-2.png" alt="icon"> <span> Clients</span> <span class="menu-arrow"></span></a>
@@ -213,7 +213,7 @@ if (isset($_GET['ids'])) {
 <li class="submenu">
 <a href="#"><img src="assets/img/sidebar/icon-2.png" alt="icon"> <span> Commandes</span> <span class="menu-arrow"></span></a>
 <ul class="list-unstyled" style="display: none;">
-<li><a href="commande-form.php"><span>Passer Commandes</span></a></li>
+<li><a href="index1.php"><span>Passer Commandes</span></a></li>
 <li><a href="liste-commande.php"><span>Liste Commandes</span></a></li>
 </ul>
 </li>
@@ -231,11 +231,11 @@ if (isset($_GET['ids'])) {
 <div class="page-header">
 <div class="row">
 <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-<h5 class="text-uppercase mb-0 mt-0 page-title">Clients</h5>
+<h5 class="text-uppercase mb-0 mt-0 page-title">Fourisseurs</h5>
 </div>
 <div class="col-lg-6 col-md-6 col-sm-6 col-12">
 <ul class="breadcrumb float-right p-0 mb-0">
-<li class="breadcrumb-item"><a href="index.php"><i class="fas fa-home"></i> Accueil</a></li>
+<li class="breadcrumb-item"><a href="accueil.php"><i class="fas fa-home"></i> Accueil</a></li>
 <li class="breadcrumb-item"><a href="#">Fournisseurs</a></li>
 <li class="breadcrumb-item"><span> Tous les fournisseurs</span></li>
 </ul>
@@ -246,10 +246,10 @@ if (isset($_GET['ids'])) {
 <div class="col-sm-4 col-12">
 </div>
 <div class="col-sm-8 col-12 text-right add-btn-col">
-<a href="ajouter-client.php" class="btn btn-primary float-right btn-rounded"><i class="fas fa-plus"></i> Ajouter</a>
+<a href="ajouter-frs.php" class="btn btn-primary float-right btn-rounded"><i class="fas fa-plus"></i> Ajouter</a>
 <div class="view-icons">
-<a href="ajouter-client" class="grid-view btn btn-link"><i class="fas fa-th"></i></a>
-<a href="liste-client.php" class="list-view btn btn-link active"><i class="fas fa-bars"></i></a>
+<a href="ajouter-frs.php" class="grid-view btn btn-link"><i class="fas fa-th"></i></a>
+<a href="liste-frs.php" class="list-view btn btn-link active"><i class="fas fa-bars"></i></a>
 </div>
 </div>
 </div>
@@ -268,7 +268,7 @@ if (isset($_GET['ids'])) {
 </div>
 </div>
 <div class="col-sm-6 col-md-3">
-<div class="form-group form-focus select-focus">
+<!-- <div class="form-group form-focus select-focus">
 <select class="select form-control">
 <option>Maths</option>
 <option>English</option>
@@ -277,7 +277,7 @@ if (isset($_GET['ids'])) {
 <option>Finance</option>
 </select>
 <label class="focus-label">Subject</label>
-</div>
+</div> -->
 </div>
 <div class="col-sm-6 col-md-3">
 <a href="#" class="btn btn-search rounded btn-block mb-3"> search </a>
@@ -318,9 +318,8 @@ if (isset($_GET['ids'])) {
 			echo '<td>
             <a href="ajouter-frs.php?idm=' . $ligne['idf'] .'"><i class="fas fa-edit" > </i></a>
 
-			<button type="submit" data-toggle="modal" data-target="#delete_employee" class="btn btn-danger btn-sm mb-1">
-			<a href="liste-frs.php?ids=' . $ligne['idf'] .'"><i class="far fa-trash alt" > </i><a/>
-            </button>
+			<a href="liste-frs.php?ids=' . $ligne['idf'] .'"><i class="fas fa-trash alt" > </i><a/>
+            
 
             </td>';
 
